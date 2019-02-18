@@ -5,33 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Notify</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
+    <div class="loader">
+        <div class="fulfilling-bouncing-circle-spinner">
+            <div class="circle"></div>
+            <div class="orbit"></div>
+        </div>
+    </div>
     <div class="grid">
         <header>
-            <div class="containter">
-                <div class="notify">
-                    <h3>
-                        https://goo.gl/93BPU7
-                    </h3>
+            <div class="container display-flex">
+                <div class="notify display-flex">
+                    <h1>Notify<span>.</span></h1>
+                    <p>A great new free psd theme to showcase</p>
+                    <p>your new application.</p>
+                    <ul class="display-flex row">
+                        <li>
+                            <i class="fab fa-apple"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-android"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-windows"></i>
+                        </li>
+                    </ul>
                 </div>
-                <div class="mobile">
-
-                </div>
+                <img class="hand" src="assets/hand.png" alt="">
             </div>
         </header>
         <section class="contents">
-            <div class="containter"></div>
+            <div class="container display-flex">
+                <ul class="display-flex">
+                    <li class="display-flex">
+                        <div class="contents-icons display-flex">
+                            <img src="assets/icone1.png" alt="Ícone de engrenagem">
+                        </div>
+                        <h4>Editable Theme</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suspendisse fringilla fringilla.</p>
+                    </li>
+                    <li class="display-flex">
+                        <div class="contents-icons display-flex">
+                            <img src="assets/icone2.png" alt="Ícone de estrela">
+                        </div>
+                        <h4>Flat Design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suspendisse fringilla fringilla.</p>
+                    </li>
+                    <li class="display-flex">
+                        <div class="contents-icons display-flex">
+                            <img src="assets/icone3.png" alt="Ícone de planeta terra">
+                        </div>
+                        <h4>Reach Your Audience</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suspendisse fringilla fringilla.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="leads">
-            <div class="containter"></div>
-        </section>
+        <article class="leads">
+            <div class="container display-flex">
+                <section>
+                    <h4>Get Notified Of Any Updates!</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, unde ipsam pariatur nobis adipisci magnam ducimus atque, exercitationem repellendus amet vero modi ipsa et illo obcaecati alias error eius animi provident dolorum earum cupiditate possimus!</p>
+                    <input type="email" placeholder="Email Address" name="email">
+                    <button type="submit">Notify</button>
+                </section>
+                <section>
+                    <iframe src="https://player.vimeo.com/video/145106138?title=0&byline=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </section>
+            </div>
+        </article>
         <section class="social-media">
-            <div class="containter"></div>
+            <div class="container display-flex">
+                <p class="quote"><em>"Lorem ipsum dolor sit amet, consectetur adipisci elit. Mauris interdum valit vitae nulla molestie eu commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut."</em></p>
+                <h4>Jane Hunt</h4>
+                <div class="pictures-frame"></div>
+                <h3>Say Hi & Get in Touch</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.</p>
+                <ul class="display-flex">
+                    <li class="display-flex"><i class="fab fa-twitter"></i></li>
+                    <li class="display-flex"><i class="fab fa-facebook-f"></i></li>
+                    <li class="display-flex"><i class="fab fa-pinterest"></i></li>
+                    <li class="display-flex"><i class="fab fa-google-plus-g"></i></li>
+                    <li class="display-flex"><i class="fab fa-linkedin-in"></i></li>
+                    <li class="display-flex"><i class="fab fa-youtube"></i></li>
+                </ul>
+            </div>
         </section>
         <footer>
-            <div class="containter"></div>
+            <div class="container display-flex">
+                <ul class="display-flex">
+                    <li>Contact</li>
+                    <li>Download</li>
+                    <li>Press</li>
+                    <li>Email</li>
+                    <li>Support</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
         </footer>
     </div>
 </body>
